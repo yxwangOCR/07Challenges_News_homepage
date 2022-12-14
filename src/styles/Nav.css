@@ -6,4 +6,8 @@
 }
 .navbar img {
   width: 2rem;
+}
+.navbar img:hover {
+  cursor: pointer;
+  filter: invert(55%) sepia(28%) saturate(5730%) hue-rotate(329deg) brightness(97%) contrast(95%);
 }/*# sourceMappingURL=Nav.css.map */

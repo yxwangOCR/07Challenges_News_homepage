@@ -2,6 +2,7 @@ import "././styles/General.scss";
 import Nav from "./components/Nav";
 import Hero from "./components/Hero";
 import Block from "./components/Block";
+import Card from "./components/Card";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Nav />
       <Hero />
       <Block />
+      <Card />
     </div>
   );
 }
