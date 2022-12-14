@@ -29,3 +29,13 @@
     }
   }
 }
+@media screen and (min-width: 1400px) {
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .card {
+      width: 30%;
+    }
+  }
+}

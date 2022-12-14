@@ -1,16 +1,23 @@
 import "././styles/General.scss";
-import Nav from "./components/Nav";
-import Hero from "./components/Hero";
-import Block from "./components/Block";
-import Card from "./components/Card";
+import DesktopLayout from "./components/DesktopLayout";
+import MobileLayout from "./components/MobileLayout";
+import { useEffect, useState } from "react";
 
 function App() {
+  const [width, setWidth] = useState(window.innerWidth);
+  useEffect(() => {
+    function handleResize() {
+      setWidth(window.innerWidth);
+    }
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, [width]);
+  useEffect(() => {
+    width < 1400 && setWidth(1400);
+  }, [width]);
   return (
     <div className='App'>
-      <Nav />
-      <Hero />
-      <Block />
-      <Card />
+      {width > 1400 ? <DesktopLayout /> : <MobileLayout />}
     </div>
   );
 }

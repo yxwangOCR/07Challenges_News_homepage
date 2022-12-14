@@ -28,3 +28,14 @@
     background-color: $dark-blue;
   }
 }
+
+@media screen and (min-width: 1400px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+
+    .hero-content {
+      display: flex;
+    }
+  }
+}

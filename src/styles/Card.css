@@ -38,4 +38,15 @@
 }
 .card-container .card .card-content:hover {
   cursor: pointer;
+}
+
+@media screen and (min-width: 1400px) {
+  .card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .card-container .card {
+    width: 30%;
+  }
 }/*# sourceMappingURL=Card.css.map */
