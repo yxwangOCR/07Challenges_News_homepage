@@ -12,6 +12,6 @@
     margin: 2em 0;
   }
   .content {
-    @include contentStyle($off-white, $light-gray);
+    @include contentStyle($off-white, $light-gray, $orange);
   }
 }

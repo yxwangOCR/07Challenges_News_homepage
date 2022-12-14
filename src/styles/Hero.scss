@@ -23,4 +23,8 @@
     padding: 1em 2.5em;
     letter-spacing: 1.5px;
   }
+  button:hover {
+    cursor: pointer;
+    background-color: $dark-blue;
+  }
 }

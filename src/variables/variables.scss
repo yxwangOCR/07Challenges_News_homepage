@@ -16,10 +16,14 @@ $body-background-color: rgb(255, 255, 255);
 $family-font: "Inter", sans-serif;
 $size-font: 1rem;
 
-@mixin contentStyle($TitleColor, $TextColor) {
+@mixin contentStyle($TitleColor, $TextColor, $TitleHoverColor) {
   h2 {
     color: $TitleColor;
     font-size: $size-font;
+  }
+  h2:hover {
+    color: $TitleHoverColor;
+    cursor: pointer;
   }
   p {
     color: $TextColor;

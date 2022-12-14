@@ -21,8 +21,11 @@
         color: $light-gray;
       }
       .content {
-        @include contentStyle($dark-blue, $dark-gray);
+        @include contentStyle($dark-blue, $dark-gray, $red);
       }
+    }
+    .card-content:hover {
+      cursor: pointer;
     }
   }
 }

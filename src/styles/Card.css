@@ -26,9 +26,16 @@
   color: hsl(240deg, 100%, 5%);
   font-size: 1rem;
 }
+.card-container .card .card-content .content h2:hover {
+  color: hsl(5deg, 85%, 63%);
+  cursor: pointer;
+}
 .card-container .card .card-content .content p {
   color: hsl(236deg, 13%, 42%);
   font-size: 0.7rem;
   font-weight: 400;
   line-height: 2em;
+}
+.card-container .card .card-content:hover {
+  cursor: pointer;
 }/*# sourceMappingURL=Card.css.map */

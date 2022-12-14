@@ -18,7 +18,7 @@ const Card = () => {
         </div>
       </div>
       <div className='card'>
-        <img src={img2} />
+        <img src={img3} />
         <div className='card-content'>
           <h1>02</h1>
           <Content
@@ -28,7 +28,7 @@ const Card = () => {
         </div>
       </div>
       <div className='card'>
-        <img src={img3} />
+        <img src={img2} />
         <div className='card-content'>
           <h1>03</h1>
           <Content
