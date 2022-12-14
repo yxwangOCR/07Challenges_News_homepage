@@ -33,14 +33,35 @@
   .hero {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 
     img {
       width: 100%;
-      height: 5rem;
+      height: 100%;
     }
 
     .hero-content {
       display: flex;
+      justify-content: flex-start;
+      gap: 3em;
+      padding: 0;
+      h1 {
+        padding: 0;
+        margin: 0;
+        font-size: 2.5rem;
+      }
+      p {
+        padding: 0;
+        margin: 0;
+        font-size: 1rem;
+      }
+
+      .hero-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
     }
   }
 }
