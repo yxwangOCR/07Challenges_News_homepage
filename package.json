@@ -1,4 +1,5 @@
 {
+  "homepage": "http://yxwangOCR.github.io/news-homepage",
   "name": "news-homepage",
   "version": "0.1.0",
   "private": true,
@@ -12,10 +13,15 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "css-build": "node-sass --omit-source-map-url sass/mystyles.scss src/App.css",
+    "css-watch": "npm run css-build -- --watch",
+    "watch": "npm run css-watch"
   },
   "eslintConfig": {
     "extends": [
@@ -37,6 +43,7 @@
   },
   "devDependencies": {
     "bulma": "^0.9.4",
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.3"
   }
 }
