@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^7.0.3"
   }
 }
