@@ -1,5 +1,5 @@
 @import "../variables/variables.scss";
-.navbar {
+.mobile-navbar {
   display: flex;
   justify-content: space-between;
   margin-bottom: 1em;
@@ -10,5 +10,29 @@
     cursor: pointer;
     filter: invert(55%) sepia(28%) saturate(5730%) hue-rotate(329deg)
       brightness(97%) contrast(95%);
+  }
+}
+
+.desktop-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1em 0;
+
+  ul {
+    display: flex;
+    list-style: none;
+    li {
+      margin: 0 1em;
+      a {
+        color: $dark-gray;
+        text-decoration: none;
+        font-size: $size-font;
+        letter-spacing: 1px;
+        font-weight: 400;
+      }
+      a:hover {
+        color: $orange;
+      }
+    }
   }
 }

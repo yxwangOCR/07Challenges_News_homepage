@@ -1,5 +1,6 @@
 import HeroDesktop from "../assets/image-web-3-desktop.jpg";
 import HeroMobile from "../assets/image-web-3-mobile.jpg";
+import "../styles/General.css";
 
 const Image = () => {
   return (

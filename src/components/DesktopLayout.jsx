@@ -1,4 +1,4 @@
-import Nav from "./Nav";
+import DesktopNav from "./DesktopNav";
 import Hero from "./Hero";
 import Block from "./Block";
 import Card from "./Card";
@@ -7,7 +7,7 @@ import "../styles/General.css";
 const DesktopLayout = () => {
   return (
     <div>
-      <Nav />
+      <DesktopNav />
       <div className='desktop-hero'>
         <Hero />
         <Block />

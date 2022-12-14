@@ -1,12 +1,12 @@
 import "../styles/Card.css";
 import Content from "./Content";
 import img1 from "../assets/image-retro-pcs.jpg";
-import img2 from "../assets/image-gaming-growth.jpg";
-import img3 from "../assets/image-top-laptops.jpg";
+import img2 from "../assets/image-top-laptops.jpg";
+import img3 from "../assets/image-gaming-growth.jpg";
 
 const Card = () => {
   return (
-    <div className="card-container">
+    <div className='card-container'>
       <div className='card'>
         <img src={img1} />
         <div className='card-content'>
@@ -18,7 +18,7 @@ const Card = () => {
         </div>
       </div>
       <div className='card'>
-        <img src={img3} />
+        <img src={img2} />
         <div className='card-content'>
           <h1>02</h1>
           <Content
@@ -28,7 +28,7 @@ const Card = () => {
         </div>
       </div>
       <div className='card'>
-        <img src={img2} />
+        <img src={img3} />
         <div className='card-content'>
           <h1>03</h1>
           <Content

@@ -21,6 +21,7 @@ body {
   .desktop-hero {
     display: flex;
     flex-direction: row;
+    gap: 1.5em;
   }
   body {
     margin: 0;
@@ -28,8 +29,7 @@ body {
     background-color: aquamarine;
   }
   .App {
-    margin: 0 1em;
-    background-color: red;
+    margin: 0 8em;
     height: 100%;
   }
 }

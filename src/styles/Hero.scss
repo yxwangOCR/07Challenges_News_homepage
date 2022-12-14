@@ -34,6 +34,11 @@
     display: flex;
     flex-direction: column;
 
+    img {
+      width: 100%;
+      height: 5rem;
+    }
+
     .hero-content {
       display: flex;
     }

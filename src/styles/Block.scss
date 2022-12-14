@@ -15,3 +15,11 @@
     @include contentStyle($off-white, $light-gray, $orange);
   }
 }
+
+@media screen and (min-width: 1400px) {
+  .block {
+    margin: 0;
+    padding: 2.5em 1.6em;
+    width: 46rem
+  }
+}

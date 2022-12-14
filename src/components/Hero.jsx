@@ -6,7 +6,6 @@ const Hero = () => {
     <div className='hero'>
       <Image />
       <div className='hero-content'>
-        {" "}
         <h1>The Bright Future of Web 3.0?</h1>
         <div>
           <p>
