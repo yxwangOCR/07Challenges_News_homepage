@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+}
+.navbar img {
+  width: 2rem;
+}/*# sourceMappingURL=Nav.css.map */

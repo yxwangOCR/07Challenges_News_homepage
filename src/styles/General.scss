@@ -1,0 +1,17 @@
+@import "../variables/variables.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: $size-font;
+  font-family: $family-font;
+  background-color: $body-background-color;
+}
+
+.App {
+  margin: 1em;
+}

@@ -1,0 +1,9 @@
+@import "../variables/variables.scss";
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  img {
+    width: 2rem;
+  }
+}
