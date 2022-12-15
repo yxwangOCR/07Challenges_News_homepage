@@ -4,32 +4,25 @@
   .card {
     display: flex;
     height: 10rem;
-
     img {
       width: 30%;
-      height: auto;
       object-fit: cover;
       margin: 1em 0;
     }
-
-    .card-content {
+    .content {
       display: flex;
       flex-direction: column;
-      margin: 1em;
-      h1 {
-        margin: 0;
-        color: $light-gray;
-      }
-      .content {
-        @include contentStyle($dark-blue, $dark-gray, $red, 1rem, 0.8rem);
-      }
+      justify-content: space-between;
+      margin: 1em 0 1em 1em;
+      width: 70%;
+      @include contentStyle($dark-blue, $dark-gray, $red, 1rem, 0.9rem);
     }
-    .card-content:hover {
+    .content:hover {
       cursor: pointer;
     }
   }
 }
-@media screen and (min-width: 1400px) {
+@media (min-width: 1400px) {
   .card-container {
     display: flex;
     flex-direction: row;

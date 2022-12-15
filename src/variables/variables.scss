@@ -24,6 +24,10 @@ $size-font: 1rem;
   $TitleSize,
   $TextSize
 ) {
+  h1 {
+    margin: 0;
+    color: $light-gray;
+  }
   h2 {
     color: $TitleColor;
     font-size: $TitleSize;
@@ -37,5 +41,7 @@ $size-font: 1rem;
     font-size: $TextSize;
     font-weight: 400;
     line-height: 2em;
+    margin: 0;
+    padding: 0;
   }
 }

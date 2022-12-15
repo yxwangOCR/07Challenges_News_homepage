@@ -17,6 +17,11 @@
   display: flex;
   justify-content: space-between;
   margin: 3em 0 1em 0;
+  img:hover {
+    cursor: pointer;
+    filter: invert(55%) sepia(28%) saturate(5730%) hue-rotate(329deg)
+      brightness(97%) contrast(95%);
+  }
 
   ul {
     display: flex;
@@ -31,7 +36,7 @@
         font-weight: 400;
       }
       a:hover {
-        color: $orange;
+        color: $red;
       }
     }
   }

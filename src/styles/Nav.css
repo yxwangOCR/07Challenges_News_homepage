@@ -17,6 +17,10 @@
   justify-content: space-between;
   margin: 3em 0 1em 0;
 }
+.desktop-nav img:hover {
+  cursor: pointer;
+  filter: invert(55%) sepia(28%) saturate(5730%) hue-rotate(329deg) brightness(97%) contrast(95%);
+}
 .desktop-nav ul {
   display: flex;
   list-style: none;
@@ -32,5 +36,5 @@
   font-weight: 400;
 }
 .desktop-nav ul li a:hover {
-  color: hsl(35deg, 77%, 62%);
+  color: hsl(5deg, 85%, 63%);
 }/*# sourceMappingURL=Nav.css.map */

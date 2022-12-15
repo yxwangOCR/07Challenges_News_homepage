@@ -13,11 +13,11 @@
     margin: 2em 0;
   }
   .content {
-    @include contentStyle($off-white, $light-gray, $orange, 2rem, 35px);
+    @include contentStyle($off-white, $light-gray, $orange, 1rem, 0.7rem);
   }
 }
 
-@media screen and (min-width: 1400px) {
+@media (min-width: 1400px) {
   .block {
     margin: 0;
     padding: 2.5em 1.6em;
@@ -27,6 +27,6 @@
     }
   }
   .content {
-    @include contentStyle($off-white, $light-gray, $orange);
+    @include contentStyle($off-white, $light-gray, $orange, 2rem, 3rem);
   }
 }
