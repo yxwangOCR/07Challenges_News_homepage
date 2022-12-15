@@ -17,10 +17,16 @@ $family-font: "Inter", sans-serif;
 $size-font: 1rem;
 
 // mixin:
-@mixin contentStyle($TitleColor, $TextColor, $TitleHoverColor) {
+@mixin contentStyle(
+  $TitleColor,
+  $TextColor,
+  $TitleHoverColor,
+  $TitleSize,
+  $TextSize
+) {
   h2 {
     color: $TitleColor;
-    font-size: $size-font;
+    font-size: $TitleSize;
   }
   h2:hover {
     color: $TitleHoverColor;
@@ -28,7 +34,7 @@ $size-font: 1rem;
   }
   p {
     color: $TextColor;
-    font-size: 0.7rem;
+    font-size: $TextSize;
     font-weight: 400;
     line-height: 2em;
   }

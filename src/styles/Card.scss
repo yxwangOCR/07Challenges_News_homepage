@@ -21,7 +21,7 @@
         color: $light-gray;
       }
       .content {
-        @include contentStyle($dark-blue, $dark-gray, $red);
+        @include contentStyle($dark-blue, $dark-gray, $red, 1rem, 0.8rem);
       }
     }
     .card-content:hover {

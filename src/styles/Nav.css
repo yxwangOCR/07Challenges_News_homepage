@@ -15,7 +15,7 @@
 .desktop-nav {
   display: flex;
   justify-content: space-between;
-  margin: 1em 0;
+  margin: 3em 0 1em 0;
 }
 .desktop-nav ul {
   display: flex;
