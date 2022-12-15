@@ -26,7 +26,7 @@
   background-color: hsl(240deg, 100%, 5%);
 }
 
-@media (min-width: 1400px) {
+@media only screen and (min-width: 1439px) {
   .hero {
     display: flex;
     flex-direction: column;
@@ -39,7 +39,7 @@
   .hero .hero-content {
     display: flex;
     justify-content: flex-start;
-    gap: 3em;
+    gap: 4em;
     padding: 1.5em 0 0 0;
   }
   .hero .hero-content h1 {

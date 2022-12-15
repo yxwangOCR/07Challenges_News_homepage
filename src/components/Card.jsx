@@ -8,7 +8,7 @@ const Card = () => {
   return (
     <div className='card-container'>
       <div className='card'>
-        <img src={img1} />
+        <img src={img1} alt='news-one' />
         <Content
           number='01'
           title='Reviving Retro PCs'
@@ -16,7 +16,7 @@ const Card = () => {
         />
       </div>
       <div className='card'>
-        <img src={img2} />
+        <img src={img2} alt='news-two' />
 
         <Content
           number='02'
@@ -25,7 +25,7 @@ const Card = () => {
         />
       </div>
       <div className='card'>
-        <img src={img3} />
+        <img src={img3} alt='news-three' />
         <Content
           number='03'
           title='The Growth of Gaming'

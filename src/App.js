@@ -13,11 +13,11 @@ function App() {
     return () => window.removeEventListener("resize", handleResize);
   }, [width]);
   useEffect(() => {
-    width < 1400 && setWidth(1400);
+    width < 1439 && setWidth(1400);
   }, [width]);
   return (
     <div className='App'>
-      {width > 1400 ? <DesktopLayout /> : <MobileLayout />}
+      {width > 1439 ? <DesktopLayout /> : <MobileLayout />}
     </div>
   );
 }

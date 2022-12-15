@@ -13,20 +13,40 @@
     margin: 2em 0;
   }
   .content {
-    @include contentStyle($off-white, $light-gray, $orange, 1rem, 0.7rem);
+    @include contentStyle($off-white, $light-gray, $orange, 1rem, 0.7rem, 0);
   }
 }
 
-@media (min-width: 1400px) {
+@media only screen and (min-width: 992px) {
   .block {
-    margin: 0;
-    padding: 2.5em 1.6em;
-    width: 75%;
+    margin: 3em 0;
+    padding: 2em 1.6em;
     h1 {
-      font-size: 4rem;
+      font-size: 2rem;
+    }
+    .content {
+      @include contentStyle(
+        $off-white,
+        $light-gray,
+        $orange,
+        1.2rem,
+        0.9rem,
+        0
+      );
     }
   }
-  .content {
-    @include contentStyle($off-white, $light-gray, $orange, 2rem, 3rem);
+}
+
+@media only screen and (min-width: 1439px) {
+  .block {
+    margin: 0;
+    padding: 1.5em;
+    width: 93%;
+    h1 {
+      font-size: 3rem;
+    }
+    .content {
+      @include contentStyle($off-white, $light-gray, $orange, 1.1em, 0.9em, 0);
+    }
   }
 }

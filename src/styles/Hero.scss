@@ -29,21 +29,19 @@
   }
 }
 
-@media (min-width: 1400px) {
+@media only screen and (min-width: 1439px) {
   .hero {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     img {
       width: 100%;
       height: 100%;
     }
-
     .hero-content {
       display: flex;
       justify-content: flex-start;
-      gap: 3em;
+      gap: 4em;
       padding: 1.5em 0 0 0;
       h1 {
         padding: 0;

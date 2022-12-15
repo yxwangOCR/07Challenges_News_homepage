@@ -12,23 +12,17 @@ body {
   font-family: $family-font;
   background-color: $body-background-color;
 }
-
 .App {
   margin: 1em;
 }
 
-@media (min-width: 1400px) {
+@media only screen and (min-width: 1439px) {
+  .App {
+    margin: 0 10em;
+  }
   .desktop-hero {
     display: flex;
     flex-direction: row;
     gap: 1.5em;
-  }
-  body {
-    margin: 0;
-    height: 100vh;
-  }
-  .App {
-    margin: 0 8em;
-    height: 100%;
   }
 }

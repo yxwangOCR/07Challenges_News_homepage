@@ -4,30 +4,26 @@
 }
 .card-container .card {
   display: flex;
-  height: 10rem;
+  height: 7rem;
+  margin: 1.5em 0;
+  gap: 1em;
 }
 .card-container .card img {
   width: 30%;
   -o-object-fit: cover;
      object-fit: cover;
-  margin: 1em 0;
 }
 .card-container .card .content {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 1em 0 1em 1em;
   width: 70%;
+  line-height: 0.7em;
 }
 .card-container .card .content h1 {
-  margin: 0;
   color: hsl(233deg, 8%, 79%);
+  font-size: 1.5em;
 }
 .card-container .card .content h2 {
   color: hsl(240deg, 100%, 5%);
-  font-size: 1rem;
-  margin: 0;
-  padding: 0;
+  font-size: 0.9em;
 }
 .card-container .card .content h2:hover {
   color: hsl(5deg, 85%, 63%);
@@ -35,23 +31,45 @@
 }
 .card-container .card .content p {
   color: hsl(236deg, 13%, 42%);
-  font-size: 0.9rem;
+  font-size: 0.7em;
   font-weight: 400;
-  line-height: 10px;
-  margin: 0;
-  padding: 0;
+  line-height: 2em;
 }
 .card-container .card .content:hover {
   cursor: pointer;
 }
 
-@media (min-width: 1400px) {
+@media only screen and (min-width: 1439px) {
   .card-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
   .card-container .card {
-    width: 30%;
+    width: 40%;
+  }
+  .card-container .card img {
+    width: 25%;
+  }
+  .card-container .card .content {
+    width: 65%;
+  }
+  .card-container .card .content h1 {
+    color: hsl(233deg, 8%, 79%);
+    font-size: 1.5em;
+  }
+  .card-container .card .content h2 {
+    color: hsl(240deg, 100%, 5%);
+    font-size: 0.9em;
+  }
+  .card-container .card .content h2:hover {
+    color: hsl(5deg, 85%, 63%);
+    cursor: pointer;
+  }
+  .card-container .card .content p {
+    color: hsl(236deg, 13%, 42%);
+    font-size: 0.7em;
+    font-weight: 400;
+    line-height: 2em;
   }
 }/*# sourceMappingURL=Card.css.map */
