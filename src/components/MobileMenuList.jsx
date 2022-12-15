@@ -1,29 +1,27 @@
 import "../styles/Nav.css";
 import MobileMenuClose from "../../src/assets/icon-menu-close.svg";
-import useToggle from "../hooks/useToggle";
+import { useState } from "react";
 
 const MobileMenuList = () => {
-  const [isToggle, setIsToggle] = useToggle(true);
+  const [close, setClose] = useState(false);
   return (
     <>
-      {isToggle ? null : (
+      {!close ? (
         <div className='modal'>
           <img
             src={MobileMenuClose}
             alt='Mobile Nav close menu'
-            onClick={() => setIsToggle.onToggle()}
+            onClick={() => setClose(!close)}
           />
+          <ul className='mobile-menu-list'>
+            <a href='#'>Home</a>
+            <a href='#'>New</a>
+            <a href='#'>Popular</a>
+            <a href='#'>Trending</a>
+            <a href='#'>Categories</a>
+          </ul>
         </div>
-      )}
-      {isToggle ? null : (
-        <ul className='Mobile-menu-list'>
-          <a href='#'>Home</a>
-          <a href='#'>New</a>
-          <a href='#'>Popular</a>
-          <a href='#'>Trending</a>
-          <a href='#'>Categories</a>
-        </ul>
-      )}
+      ) : null}
     </>
   );
 };

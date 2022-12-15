@@ -2,10 +2,10 @@ import "../styles/Nav.css";
 import Logo from "../../src/assets/logo.svg";
 import MobileMenu from "../../src/assets/icon-menu.svg";
 import MobileMenuList from "./MobileMenuList";
-import useToggle from "../hooks/useToggle";
+import { useState } from "react";
 
 const MobileNav = () => {
-  const [isToggle, setIsToggle] = useToggle(true);
+  const [open, setOpen] = useState(false);
   return (
     <>
       <div className='mobile-navbar'>
@@ -14,10 +14,10 @@ const MobileNav = () => {
         <img
           src={MobileMenu}
           alt='Mobile Nav open menu'
-          onClick={() => setIsToggle.onToggle()}
+          onClick={() => setOpen(!open)}
         />
       </div>
-      {isToggle ? <MobileMenuList /> : null}
+      {open ? <MobileMenuList /> : null}
     </>
   );
 };
