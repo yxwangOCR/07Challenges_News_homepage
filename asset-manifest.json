@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/07Challenges_News_homepage/static/css/main.88b2bdd0.css",
-    "main.js": "/07Challenges_News_homepage/static/js/main.40767a76.js",
+    "main.css": "/07Challenges_News_homepage/static/css/main.1942fa89.css",
+    "main.js": "/07Challenges_News_homepage/static/js/main.4bb94020.js",
     "static/media/image-web-3-desktop.jpg": "/07Challenges_News_homepage/static/media/image-web-3-desktop.988d05305d18140f188c.jpg",
     "static/media/image-web-3-mobile.jpg": "/07Challenges_News_homepage/static/media/image-web-3-mobile.aff7a393740bc26b3651.jpg",
     "static/media/image-retro-pcs.jpg": "/07Challenges_News_homepage/static/media/image-retro-pcs.4ecb8a36b05f012297a6.jpg",
@@ -9,11 +9,11 @@
     "index.html": "/07Challenges_News_homepage/index.html",
     "static/media/icon-menu-close.svg": "/07Challenges_News_homepage/static/media/icon-menu-close.ca20d86e8364ad748c947025ef771994.svg",
     "static/media/icon-menu.svg": "/07Challenges_News_homepage/static/media/icon-menu.f967d833be0e64002eeaadab0bae9ac5.svg",
-    "main.88b2bdd0.css.map": "/07Challenges_News_homepage/static/css/main.88b2bdd0.css.map",
-    "main.40767a76.js.map": "/07Challenges_News_homepage/static/js/main.40767a76.js.map"
+    "main.1942fa89.css.map": "/07Challenges_News_homepage/static/css/main.1942fa89.css.map",
+    "main.4bb94020.js.map": "/07Challenges_News_homepage/static/js/main.4bb94020.js.map"
   },
   "entrypoints": [
-    "static/css/main.88b2bdd0.css",
-    "static/js/main.40767a76.js"
+    "static/css/main.1942fa89.css",
+    "static/js/main.4bb94020.js"
   ]
 }
