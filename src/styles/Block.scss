@@ -45,12 +45,12 @@
   .block {
     margin: 0;
     padding: 1.5em;
-    width: 93%;
+    width: 76%;
     h2 {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
     .content {
-      @include contentStyle($off-white, $light-gray, $orange, 1.1em, 0.9em, 0);
+      @include contentStyle($off-white, $light-gray, $orange, 1em, 0.8em, 0);
     }
   }
 }
