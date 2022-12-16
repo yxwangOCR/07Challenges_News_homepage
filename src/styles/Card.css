@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
 .card-container {
   margin: 2em 0;
-  background-color: red;
 }
 .card-container .card {
   display: flex;
@@ -23,12 +22,12 @@
 .card-container .card .content h2 {
   color: hsl(233deg, 8%, 79%);
   font-size: 1.5em;
-  margin: 0;
+  margin: 0 0;
 }
 .card-container .card .content h3 {
   color: hsl(240deg, 100%, 5%);
   font-size: 0.9em;
-  margin: 0;
+  margin: 0 0;
 }
 .card-container .card .content h3:hover {
   color: hsl(5deg, 85%, 63%);
@@ -39,7 +38,7 @@
   font-size: 0.7em;
   font-weight: 400;
   line-height: 2em;
-  margin: 0;
+  margin: 0 0;
 }
 .card-container .card .content:hover {
   cursor: pointer;
@@ -63,12 +62,12 @@
   .card-container .card .content h2 {
     color: hsl(233deg, 8%, 79%);
     font-size: 1.7em;
-    margin: 0;
+    margin: 0 0;
   }
   .card-container .card .content h3 {
     color: hsl(240deg, 100%, 5%);
     font-size: 1em;
-    margin: 0;
+    margin: 0 0;
   }
   .card-container .card .content h3:hover {
     color: hsl(5deg, 85%, 63%);
@@ -79,6 +78,6 @@
     font-size: 0.8em;
     font-weight: 400;
     line-height: 2em;
-    margin: 0;
+    margin: 0 0;
   }
 }/*# sourceMappingURL=Card.css.map */

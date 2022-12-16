@@ -15,7 +15,17 @@
     margin: 2em 0;
   }
   .content {
-    @include contentStyle($off-white, $light-gray, $orange, 1rem, 0.7rem, 0);
+    @include contentStyle(
+      $off-white,
+      $light-gray,
+      $orange,
+      1rem,
+      0.7rem,
+      0,
+      1em,
+      1em,
+      1rem
+    );
   }
 }
 
@@ -35,7 +45,10 @@
         $orange,
         1.5rem,
         1.1rem,
-        0
+        0,
+        1em,
+        1em,
+        1em
       );
     }
   }
@@ -47,11 +60,23 @@
     margin: 0;
     padding: 1.5em;
     width: 76%;
+  
+
     h2 {
       font-size: 2.5rem;
     }
     .content {
-      @include contentStyle($off-white, $light-gray, $orange, 1em, 0.8em, 0);
+      @include contentStyle(
+        $off-white,
+        $light-gray,
+        $orange,
+        1em,
+        0.8em,
+        0,
+        1em,
+        1em,
+        1em
+      );
     }
   }
 }

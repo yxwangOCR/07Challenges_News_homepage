@@ -15,12 +15,12 @@
 .block .content h2 {
   color: hsl(233deg, 8%, 79%);
   font-size: 0;
-  margin: 0;
+  margin: 1em 0;
 }
 .block .content h3 {
   color: hsl(36deg, 100%, 99%);
   font-size: 1rem;
-  margin: 0;
+  margin: 1em 0;
 }
 .block .content h3:hover {
   color: hsl(35deg, 77%, 62%);
@@ -31,7 +31,7 @@
   font-size: 0.7rem;
   font-weight: 400;
   line-height: 2em;
-  margin: 0;
+  margin: 1rem 0;
 }
 
 @media only screen and (min-width: 992px) {
@@ -44,17 +44,14 @@
     font-size: 2.5rem;
   }
   .block .content h2 {
-    font-size: 1.5rem;
-  }
-  .block .content h2 {
     color: hsl(233deg, 8%, 79%);
     font-size: 0;
-    margin: 0;
+    margin: 1em 0;
   }
   .block .content h3 {
     color: hsl(36deg, 100%, 99%);
     font-size: 1.5rem;
-    margin: 0;
+    margin: 1em 0;
   }
   .block .content h3:hover {
     color: hsl(35deg, 77%, 62%);
@@ -65,7 +62,7 @@
     font-size: 1.1rem;
     font-weight: 400;
     line-height: 2em;
-    margin: 0;
+    margin: 1em 0;
   }
 }
 @media only screen and (min-width: 1439px) {
@@ -80,12 +77,12 @@
   .block .content h2 {
     color: hsl(233deg, 8%, 79%);
     font-size: 0;
-    margin: 0;
+    margin: 1em 0;
   }
   .block .content h3 {
     color: hsl(36deg, 100%, 99%);
     font-size: 1em;
-    margin: 0;
+    margin: 1em 0;
   }
   .block .content h3:hover {
     color: hsl(35deg, 77%, 62%);
@@ -96,6 +93,6 @@
     font-size: 0.8em;
     font-weight: 400;
     line-height: 2em;
-    margin: 0;
+    margin: 1em 0;
   }
 }/*# sourceMappingURL=Block.css.map */
