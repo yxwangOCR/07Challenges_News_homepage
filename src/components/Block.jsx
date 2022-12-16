@@ -4,7 +4,7 @@ import Content from "./Content";
 const Block = () => {
   return (
     <div className='block'>
-      <h1>New</h1>
+      <h2>New</h2>
       <Content
         title='Hydrogen VS Electric Cars'
         text='Will hydrogen-fueled cars ever catch up to EVs?'
