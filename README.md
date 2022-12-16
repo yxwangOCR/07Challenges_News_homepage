@@ -4,20 +4,19 @@
 
 This challenge is to build out this news website homepage and get it looking as close to the design as possible.
 
-We can use any tools we like to help us complete the challenge. 
+We can use any tools we like to help us complete the challenge.
 
 Users should be able to:
 
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
 
-
-Here we can find both a mobile and a desktop version of the design: 
+Here we can find both a mobile and a desktop version of the design:
 
 ![Design preview for the News homepage coding challenge](./design/desktop-preview.jpg)
 <img src="design/active-states.jpg" alt="desktop"/>
 <img src="design/mobile-design.jpg" alt="mobile"/>
-
+<img src="design/mobile-menu.jpg" alt="mobile layout">
 
 ## Front-end Style Guide
 
@@ -44,4 +43,3 @@ The designs were created to the following widths:
 - Font size (paragraph): 15px
 - Family: [Inter](https://fonts.google.com/specimen/Inter)
 - Weights: 400, 700, 800
-
