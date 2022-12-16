@@ -1,4 +1,6 @@
 @import "../variables/variables.scss";
+
+// Card style by default on mobile :
 .card-container {
   margin: 2em 0;
   .card {
@@ -11,8 +13,10 @@
       object-fit: cover;
     }
     .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       width: 70%;
-      line-height: 0.7em;
       @include contentStyle($dark-blue, $dark-gray, $red, 0.9em, 0.7em, 1.5em);
     }
     .content:hover {
@@ -37,9 +41,9 @@
           $dark-blue,
           $dark-gray,
           $red,
-          0.9em,
-          0.7em,
-          1.5em
+          1em,
+          0.8em,
+          1.7em
         );
       }
     }

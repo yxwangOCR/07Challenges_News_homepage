@@ -17,7 +17,6 @@ const Card = () => {
       </div>
       <div className='card'>
         <img src={img2} alt='news-two' />
-
         <Content
           number='02'
           title='Top 10 Laptops of 2022'
