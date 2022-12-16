@@ -1,6 +1,6 @@
 import "../styles/Nav.css";
 import Logo from "../../src/assets/logo.svg";
-import MobileMenu from "../../src/assets/icon-menu.svg";
+import MobileMenuIcon from "../../src/assets/icon-menu.svg";
 import MobileMenuList from "./MobileMenuList";
 import { useState } from "react";
 
@@ -12,8 +12,8 @@ const MobileNav = () => {
         <img src={Logo} alt='Website Logo' />
 
         <img
-          src={MobileMenu}
-          alt='Mobile Nav open menu'
+          src={MobileMenuIcon}
+          alt='Open menu on mobile'
           onClick={() => setOpen(!open)}
         />
       </div>

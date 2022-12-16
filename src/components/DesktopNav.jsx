@@ -3,7 +3,7 @@ import Logo from "../../src/assets/logo.svg";
 
 const DesktopNav = () => {
   return (
-    <div className='desktop-nav'>
+    <div className='desktop-navbar'>
       <img src={Logo} alt='Website Logo' />
       <ul>
         <li>

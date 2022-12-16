@@ -1,4 +1,5 @@
 @import "../variables/variables.scss";
+// Mobile Nav bar styles by default :
 .mobile-navbar {
   display: flex;
   justify-content: space-between;
@@ -14,35 +15,7 @@
   }
 }
 
-.desktop-nav {
-  display: flex;
-  justify-content: space-between;
-  margin: 3em 0 1em 0;
-  img:hover {
-    cursor: pointer;
-    filter: invert(55%) sepia(28%) saturate(5730%) hue-rotate(329deg)
-      brightness(97%) contrast(95%);
-  }
-
-  ul {
-    display: flex;
-    list-style: none;
-    li {
-      margin: 0 1em;
-      a {
-        color: $dark-gray;
-        text-decoration: none;
-        font-size: $size-font;
-        letter-spacing: 1px;
-        font-weight: 400;
-      }
-      a:hover {
-        color: $red;
-      }
-    }
-  }
-}
-
+// Mobile Nav bar styles when the menu icon is clicked :
 .modal {
   position: fixed;
   top: 0;
@@ -51,31 +24,32 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   img {
-    z-index: 10;
+    z-index: 1;
     position: fixed;
-    top: 2em;
+    top: 1em;
     right: 1em;
   }
   ul {
     display: flex;
     flex-direction: column;
-    padding-top: 7em;
+    padding-top: 8em;
     background-color: white;
     width: 85%;
     height: 100vh;
     position: relative;
     right: -100px;
     top: -16px;
-
     li {
       list-style: none;
-      font-size: $size-font;
       letter-spacing: 1px;
       font-weight: 400;
       padding: 1em 0;
       a {
         text-decoration: none;
-        color : $dark-gray
+        color: $dark-blue;
+      }
+      a:hover {
+        color: $red;
       }
     }
   }
@@ -83,8 +57,36 @@
 
 @media only screen and (min-width: 930px) {
   .modal {
-    .mobile-menu-list {
+    ul {
       right: -180px;
+    }
+  }
+}
+
+// Desktop Nav bar styles by default :
+.desktop-navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 3em 0 1em 0;
+  img:hover {
+    cursor: pointer;
+    filter: invert(55%) sepia(28%) saturate(5730%) hue-rotate(329deg)
+      brightness(97%) contrast(95%);
+  }
+  ul {
+    display: flex;
+    li {
+      margin: 0 1em;
+      list-style: none;
+      letter-spacing: 1px;
+      font-weight: 400;
+      a {
+        color: $dark-blue;
+        text-decoration: none;
+      }
+      a:hover {
+        color: $red;
+      }
     }
   }
 }

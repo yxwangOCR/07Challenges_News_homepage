@@ -1,5 +1,5 @@
 import "../styles/Nav.css";
-import MobileMenuClose from "../../src/assets/icon-menu-close.svg";
+import MobileMenuCloseIcon from "../../src/assets/icon-menu-close.svg";
 import { useState } from "react";
 
 const MobileMenuList = () => {
@@ -9,7 +9,7 @@ const MobileMenuList = () => {
       {!close ? (
         <div className='modal'>
           <img
-            src={MobileMenuClose}
+            src={MobileMenuCloseIcon}
             alt='Mobile Nav close menu'
             onClick={() => setClose(!close)}
           />
