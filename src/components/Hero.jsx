@@ -7,7 +7,7 @@ const Hero = () => {
       <Image />
       <div className='hero-content'>
         <h1>The Bright Future of Web 3.0?</h1>
-        <div className='hero-text'>
+        <div className='hero-items'>
           <p>
             We dive into the next evolution of the web that claims to put the
             power of the platforms back into the hands of the people. But is it

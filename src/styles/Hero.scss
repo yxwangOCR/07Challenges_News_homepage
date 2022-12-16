@@ -1,5 +1,6 @@
 @import "../variables/variables.scss";
 
+// Hero style on mobile:
 .hero {
   img {
     width: 100%;
@@ -28,7 +29,7 @@
     background-color: $dark-blue;
   }
 }
-
+// Hero style on desktop:
 @media only screen and (min-width: 1439px) {
   .hero {
     display: flex;
@@ -46,22 +47,22 @@
       h1 {
         padding: 0;
         margin: 0;
-        font-size: 3.5rem;
+        font-size: 3rem;
       }
-      p {
-        padding: 0;
-        margin: 0 0 1em 0;
-        font-size: 1rem;
-      }
-
-      .hero-text {
+      .hero-items {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
-        width: 80%;
+        width: 85%;
+        p {
+          padding: 0;
+          margin: 0 0 1em 0;
+          font-size: 0.9rem;
+          letter-spacing: 0;
+        }
         button {
-          font-size: 1.1rem;
+          font-size: 0.9rem;
         }
       }
     }

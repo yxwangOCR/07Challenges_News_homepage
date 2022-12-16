@@ -45,21 +45,22 @@
   .hero .hero-content h1 {
     padding: 0;
     margin: 0;
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
-  .hero .hero-content p {
-    padding: 0;
-    margin: 0 0 1em 0;
-    font-size: 1rem;
-  }
-  .hero .hero-content .hero-text {
+  .hero .hero-content .hero-items {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-    width: 80%;
+    width: 85%;
   }
-  .hero .hero-content .hero-text button {
-    font-size: 1.1rem;
+  .hero .hero-content .hero-items p {
+    padding: 0;
+    margin: 0 0 1em 0;
+    font-size: 0.9rem;
+    letter-spacing: 0;
+  }
+  .hero .hero-content .hero-items button {
+    font-size: 0.9rem;
   }
 }/*# sourceMappingURL=Hero.css.map */
