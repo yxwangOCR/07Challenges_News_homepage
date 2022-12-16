@@ -54,7 +54,7 @@
   top: 2em;
   right: 1em;
 }
-.modal .mobile-menu-list {
+.modal ul {
   display: flex;
   flex-direction: column;
   padding-top: 7em;
@@ -65,13 +65,16 @@
   right: -100px;
   top: -16px;
 }
-.modal .mobile-menu-list a {
-  color: hsl(240deg, 100%, 5%);
-  text-decoration: none;
+.modal ul li {
+  list-style: none;
   font-size: 1rem;
   letter-spacing: 1px;
   font-weight: 400;
   padding: 1em 0;
+}
+.modal ul li a {
+  text-decoration: none;
+  color: hsl(236deg, 13%, 42%);
 }
 
 @media only screen and (min-width: 930px) {

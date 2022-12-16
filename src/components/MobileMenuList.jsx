@@ -14,11 +14,21 @@ const MobileMenuList = () => {
             onClick={() => setClose(!close)}
           />
           <ul className='mobile-menu-list'>
-            <a href='#'>Home</a>
-            <a href='#'>New</a>
-            <a href='#'>Popular</a>
-            <a href='#'>Trending</a>
-            <a href='#'>Categories</a>
+            <li>
+              <a href='/home'>Home</a>
+            </li>
+            <li>
+              <a href='/new'>New</a>
+            </li>
+            <li>
+              <a href='/popular'>Popular</a>
+            </li>
+            <li>
+              <a href='/trending'>Trending</a>
+            </li>
+            <li>
+              <a href='/categories'>Categories</a>
+            </li>
           </ul>
         </div>
       ) : null}

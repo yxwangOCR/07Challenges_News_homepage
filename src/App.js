@@ -13,7 +13,7 @@ function App() {
     return () => window.removeEventListener("resize", handleResize);
   }, [width]);
   useEffect(() => {
-    width < 1439 && setWidth(1400);
+    width < 1439 && setWidth(1439);
   }, [width]);
   return (
     <div className='App'>
