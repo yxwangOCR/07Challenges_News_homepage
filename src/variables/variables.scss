@@ -23,17 +23,20 @@ $size-font: 1rem;
   $TitleHoverColor,
   $TitleSize,
   $TextSize,
-  $NumberSize
+  $NumberSize,
+  $h2Margin,
+  $h3Margin,
+  $pMargin
 ) {
   h2 {
     color: $light-gray;
     font-size: $NumberSize;
-    margin: 0;
+    margin-top: $h2Margin;
   }
   h3 {
     color: $TitleColor;
     font-size: $TitleSize;
-    margin: 0;
+    margin-top: $h3Margin;
   }
   h3:hover {
     color: $TitleHoverColor;
@@ -44,6 +47,6 @@ $size-font: 1rem;
     font-size: $TextSize;
     font-weight: 400;
     line-height: 2em;
-    margin: 0;
+    margin-top: $pMargin;
   }
 }

@@ -44,6 +44,9 @@
     font-size: 2.5rem;
   }
   .block .content h2 {
+    font-size: 1.5rem;
+  }
+  .block .content h2 {
     color: hsl(233deg, 8%, 79%);
     font-size: 0;
     margin: 0;

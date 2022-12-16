@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
 .card-container {
   margin: 2em 0;
+  background-color: red;
 }
 .card-container .card {
   display: flex;

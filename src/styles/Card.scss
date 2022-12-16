@@ -3,6 +3,7 @@
 // Card style by default on mobile :
 .card-container {
   margin: 2em 0;
+  background-color: red;
   .card {
     display: flex;
     height: 7rem;
@@ -17,7 +18,17 @@
       flex-direction: column;
       justify-content: space-between;
       width: 70%;
-      @include contentStyle($dark-blue, $dark-gray, $red, 0.9em, 0.7em, 1.5em);
+      @include contentStyle(
+        $dark-blue,
+        $dark-gray,
+        $red,
+        0.9em,
+        0.7em,
+        1.5em,
+        0,
+        0,
+        0
+      );
     }
     .content:hover {
       cursor: pointer;
@@ -43,7 +54,10 @@
           $red,
           1em,
           0.8em,
-          1.7em
+          1.7em,
+          0,
+          0,
+          0
         );
       }
     }

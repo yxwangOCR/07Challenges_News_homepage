@@ -1,10 +1,11 @@
 @import "../variables/variables.scss";
 
-// News block style:
+// News block style on mobile by default:
 .block {
   background-color: $dark-blue;
   margin: 3em 0;
   padding: 1em 1.6em;
+
   h2 {
     margin: 0.5em 0;
     color: $orange;
